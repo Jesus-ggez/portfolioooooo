@@ -1,0 +1,30 @@
+:host {
+    --green1: #408a71;
+    --green2: #b0e4cc;
+    --black: #091413;
+    --green: #285a48;
+}
+
+:host {
+    background-color: var(--green);
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: block;
+    margin: 0;
+}
+
+h1 {
+    flex-direction: column;
+    color: var(--green2);
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+button {
+    background-color: var(--green1);
+    border-color: transparent;
+    color: var(--green2);
+    border-radius: 4px;
+    padding: 5px 10px;
+}
