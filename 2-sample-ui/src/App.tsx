@@ -1,10 +1,10 @@
+import { Layout } from './two-cols-layout/Layout'
 import './App.css'
-import { TwoColsLayout } from './layouts/TwoColsLayout'
 
 function App() {
     return (
         <>
-            <TwoColsLayout />
+            <Layout />
         </>
     )
 }

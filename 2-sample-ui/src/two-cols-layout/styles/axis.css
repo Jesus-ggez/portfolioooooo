@@ -1,0 +1,27 @@
+.h {
+    display: flex;
+    flex-direction: row;
+}
+
+.v {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-separated {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+ * all items if 'flex-wrap: wrap;' or 'display: grid':
+ */
+.on-wraps {
+    justify-content: center;
+    align-content: center;
+}
+
+
+.x-center { justify-items: center; }
+
+.y-center { align-items: center; }

@@ -1,6 +1,7 @@
-export function RightCol() {
+export const Col = () => {
+    return <div></div>
     return (
-        <>
+        <div className="right-size blue-1">
             <h2> Main content </h2>
 
 
@@ -22,6 +23,7 @@ export function RightCol() {
                 </section>
 
             </article>
-        </>
+        </div>
     )
 }
+
